@@ -88,10 +88,34 @@ img {
         padding-left: 20px;
         padding-right: 20px;
         height: 100%;
+        position: relative;
     }
 
     .header-logo {
         width: 100px;
+    }
+
+    .header-site-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        color: #ffffff;
+        background-color: #736e62;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .main {
+        padding-top: 50px;;
+    }
+
+    .footer-logo {
+        margin-top: 60px;
+    }
+
+    .copyright {
+        margin-top: 50px;
     }
 }
 
@@ -115,6 +139,3 @@ img {
     font-size: 14pt;
     font-weight: bold;
     margin-top: 90px;
-}
-09-02-common.css
-09-02-common.css を表示しています。

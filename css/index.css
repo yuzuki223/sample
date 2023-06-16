@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+nav.floating {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: #d0d0d0;
+    
+    }
+
 .first-view {
     height: calc(100vh - 110px);
     background-image: url(../images/index/bg_main.jpg);
@@ -16,7 +24,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
-    padding-right: 80px;
+    padding-bottom: 80px;
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
@@ -126,14 +134,31 @@ img {
         padding-left: 20px;
         padding-right: 20px;
         height: 100%;
+        position: relative;
     }
 
     .header-logo {
         width: 100px;
     }
 
+    .header-site-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        color: #ffffff;
+        background-color: #736e62;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: none;
+    }
+
+    .header-site-menu.is-show {
+        display: block;
+    }
+
     .main {
-        padding-top: 50px;
+        padding-top: 50px;;
     }
 
     .footer-logo {
@@ -142,6 +167,20 @@ img {
 
     .copyright {
         margin-top: 50px;
+    }
+
+    .toggle-menu-button {
+        display: block;
+        width: 44px;
+        height: 34px;
+        background-image: url(../images/common/icon-menu.png);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        outline: none;
     }
 }
 
@@ -166,5 +205,3 @@ img {
     font-weight: bold;
     margin-top: 90px;
 }
-09-05-index.css
-09-05-index.css を表示しています。
